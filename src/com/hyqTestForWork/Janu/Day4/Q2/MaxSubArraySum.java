@@ -1,4 +1,5 @@
-package com.hyqTestForWork.Janu.Day4.Q1;
+package com.hyqTestForWork.Janu.Day4.Q2;
+
 
 /**
  * @ClassName MaxSubArraySum

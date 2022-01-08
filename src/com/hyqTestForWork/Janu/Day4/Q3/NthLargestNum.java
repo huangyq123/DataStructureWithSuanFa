@@ -1,4 +1,4 @@
-package com.hyqTestForWork.Janu.Day4.Q1;
+package com.hyqTestForWork.Janu.Day4.Q3;
 
 import org.junit.Test;
 

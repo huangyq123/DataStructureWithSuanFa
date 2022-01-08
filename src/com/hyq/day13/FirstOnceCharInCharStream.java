@@ -20,8 +20,8 @@ public class FirstOnceCharInCharStream {
 
 
     public static char getFistChar(){
-        if(strB.isEmpty())
-            return ' ';
+//        if(strB.isEmpty())
+//            return ' ';
 
         char result = ' ';
         if(c[strB.charAt(index)]==1)
