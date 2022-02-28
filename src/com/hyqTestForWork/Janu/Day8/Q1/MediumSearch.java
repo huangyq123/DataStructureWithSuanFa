@@ -77,6 +77,25 @@ public class MediumSearch {
     }
 
     //morris遍历——1.9任务
+    public List<Integer> inorderTraversal3(TreeNode root){
+        List<Integer> result = new ArrayList<>();
+        while(root!=null){
+            if(root.left!=null) {
+                TreeNode temp=root.left;
+                while (temp.right != null) {
+                    temp=temp.right;
+                }
+                temp.right=root;
+                TreeNode current=root;
+                root=current.left;
+                current.left=null;
+            }else{
+                result.add(root.val);
+                root=root.right;
+            }
+        }
+        return result;
+    }
 
     @Test
     public void Test(){
